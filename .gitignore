@@ -1,1 +1,7 @@
 /data
+/clips
+/results
+.DS_Store
+.ipynb_checkpoints
+# virtual environment
+/msl012
