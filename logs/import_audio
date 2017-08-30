@@ -28,4 +28,6 @@ Imported data/Clarity/Follow You Down.wav
 Imported data/Clarity/Epos.wav
 Imported data/Clarity/Stay the Night.wav
 Imported data/Clarity/Push Play.wav
+Stored 'clips_means' (ndarray)
+Stored 'clips_deviations' (ndarray)
 Stored 'clips' (ndarray)

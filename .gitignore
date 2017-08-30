@@ -1,6 +1,7 @@
 /data
 /clips
 /results
+/logs
 .DS_Store
 .ipynb_checkpoints
 # virtual environment
