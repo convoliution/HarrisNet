@@ -10,7 +10,7 @@ because I am interested in music as well as machine learning, and I decided to t
 as an exercise to become acquainted with the recurrent neural network architecture.  
 
 I took a look at their source code, the [YouTube compilation](https://www.youtube.com/watch?v=0VTI1BBLydE) they
-produced and [the paper](https://github.com/MattVitelli/GRUV) they wrote. I suspect that there may have been
+produced, and [the paper](https://github.com/MattVitelli/GRUV) they wrote. I suspect that there may have been
 oversights in their methodology that contributed to the overfitting that is observable in their video, and that
 their nonetheless impressive work can be built upon further.
 
