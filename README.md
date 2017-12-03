@@ -21,3 +21,12 @@ Nothing. Well, close to that.
 I suspect that through a more careful prediction procedure, I could try to reduce overfitting. I have also added
 a step in preprocessing the training data; I normalized each audio clip's tempos, and I believe this can help the
 network more easily learn the concepts of beat and rhythm.
+
+## It's been a few months; what's going on?
+I realized I basically abandoned this project without a word (totally not because I accidentally deleted my training dataset and didn't want to bother with recreating it), so here's where I left off—based on what I remember, anyway.
+
+I was encountering issues at the generative stage; the produced waveform would die off into silence after about 10 samples or so. I realized I wasn't normalizing my data, so I stored the mean and variance of the samples to normalize the training data and un-normalize the output. This resulted in some rather promising audio samples...until I realized that it was producing the same sounding sample every time—even from noise. So then it occured to me that the mean sample I was calculating from training batches was doing the heavy lifting, and the network itself was still producing noise.
+
+It also seemed to me that Nayebi and Vitelli's original code was feeding in large chunks of training data as seeds for their generated sample, which may account for their outputs sounding like overfitted results—it may indeed be the original training data, with random noise being added by the network.
+
+At this point I basically gave up, and have moved on to other, arguably equally unsuccessful projects.
