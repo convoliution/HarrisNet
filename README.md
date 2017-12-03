@@ -29,4 +29,4 @@ I was encountering issues at the generative stage; the produced waveform would d
 
 It also seemed to me that Nayebi and Vitelli's original code was feeding in large chunks of training data as seeds for their generated sample, which may account for their outputs sounding like overfitted results—it may indeed be the original training data, with random noise being added by the network.
 
-At this point I basically gave up, and have moved on to other, arguably equally unsuccessful projects.
+At this point I gave up, and have moved on to other, arguably equally unsuccessful projects.
